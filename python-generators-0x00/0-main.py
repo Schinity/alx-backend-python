@@ -1,6 +1,6 @@
 import seed
 print("Starting script...")
-connection = seed.connect_db()
+connection = def connect_db():
 if connection:
     print("Connected to MySQL")
     seed.create_database(connection)
